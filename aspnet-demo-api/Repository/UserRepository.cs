@@ -16,7 +16,7 @@ namespace aspnet_demo_api.Repository
                 int userId = i + 1;
                 string userName = $"Usuário {userId}";
                 string userEmail = $"usuario-{userId}@gmail.com";
-
+                string teste;
                 User user = new User(userId, userName, userEmail);
 
                 users.Add(user);
